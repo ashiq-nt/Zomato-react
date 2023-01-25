@@ -1,0 +1,385 @@
+.background {
+  height: 75vh;
+  background-image: linear-gradient(transparent, black),
+    url("./images/shutterstock_348320018@2x.png");
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  align-items: center;
+  flex-direction: column;
+}
+.brand {
+  height: 100px;
+  width: 100px;
+  background-color: white;
+  color: red;
+  font-size: 46px;
+  border-radius: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+.quick-search {
+  height: 22vh;
+  width: 32%;
+  box-shadow: 1px 1px 4px 0px rgb(103, 91, 91);
+}
+.quick-search > img {
+  height: 100%;
+  width: 45%;
+}
+.outline {
+  outline: none;
+  border-radius: 5px;
+  border: none;
+}
+
+.brand_filter {
+  width: 42px;
+  height: 42px;
+  background-color: white;
+  color: rgba(255, 0, 0, 0.799);
+  border-radius: 21px;
+  font-size: 32px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.search-result-image {
+  width: 120px;
+  height: 120px;
+}
+.search-result-image > img {
+  height: 100%;
+  width: 100%;
+  border-radius: 30px;
+}
+.icon_login {
+  /* background-image: url("/images/assets/zomato2.png"); */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 20vw;
+  height: 20vh;
+}
+/* .icon_login > img {
+  height: 100%;
+  width: 40%;
+
+} */
+
+.edu-pagination-section {
+  display: flex;
+  justify-content: center;
+}
+.edu-pagination {
+  list-style: none;
+  display: flex;
+}
+.edu-pages {
+  margin: 0 6px;
+  border: 2px solid rgba(0, 0, 0, 0.247);
+  padding: 4px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.edu-page-active {
+  background-color: gray !important;
+  color: white !important;
+}
+/* .btn-main {
+  margin-left: 150px;
+} */
+.btn-clr {
+  color: var(--third-color);
+  border-color: var(--third-color);
+  background-color: gray !important;
+  color: white !important;
+}
+.restaurant-main-image {
+  height: 80vh;
+  border-radius: 6px;
+  overflow: hidden;
+}
+.restaurant-main-image > img {
+  margin-left: 54px;
+  border-radius: 6px;
+  height: 100%;
+  width: 90%;
+}
+.point {
+  cursor: pointer !important;
+}
+
+.my_model_section {
+  height: 78vh !important;
+}
+.my_model_section >img{
+  height: 100% !important;
+  width: 100% !important;
+}
+@media only screen and (min-device-width: 365px) and (max-device-width: 380px) and (-webkit-min-device-pixel-ratio: 2) {
+  .background {
+    height: 78vh;
+    background-image: linear-gradient(transparent, black),
+      url("./images/shutterstock_348320018@2x.png");
+    background-size: 210%;
+    background-position: center;
+    background-repeat: no-repeat;
+    align-items: center;
+    flex-direction: column;
+  }
+  .quick-search {
+    height: 22vh;
+    width: 100%;
+    box-shadow: 1px 1px 4px 0px rgb(103, 91, 91);
+  }
+  .edu-m-remove-para-margin p {
+    margin: 0 !important;
+  }
+
+  .search-result-image > img {
+    height: 70%;
+    border-radius: 15px;
+  }
+  .brand-name {
+    width: 100px;
+    height: 100px;
+    font-size: 3.5rem;
+  }
+  .search {
+    width: 100% !important;
+    flex-direction: column;
+    align-items: center;
+  }
+ 
+  .input-group {
+    width: 80% !important;
+  }
+
+  .main-section {
+    background-color: red;
+    height: auto;
+    padding-bottom: 2rem;
+    background-size: cover;
+  }
+  .quick-search-item {
+    width: 100%;
+    margin-bottom: 8px;
+  }
+  .restaurant-main-image {
+    height: 46vh;
+    overflow: hidden;
+  }
+  .restaurant-main-image > img {
+    margin-left: 0px;
+    border-radius: 6px;
+    height: 100%;
+    width: 100%;
+  }
+  
+  .my_model_section {
+    height: 48vh !important;
+  }
+  .avg_text{
+    font-size: 19px !important;
+
+  }
+  .small_text {
+    font-size: 14px;
+  }
+  .verysmall_text{
+    font-size: 12px;
+  }
+  .btn_show{
+    padding: 4px !important;
+  }
+}
+
+
+.btn-main {
+  margin-left: 30px;
+}
+
+
+/* }
+@media only screen and (min-device-width: 380px) and (max-device-width: 530px) and (-webkit-min-device-pixel-ratio: 2) {
+  .background {
+    height: 52vh;
+    background-image: linear-gradient(transparent, black),
+      url("./images/shutterstock_348320018@2x.png");
+    background-size: 180%;
+    background-position: center;
+    background-repeat: no-repeat;
+    align-items: center;
+    flex-direction: column;
+  }
+  .quick-search {
+    height: 16vh;
+    width: 100%;
+    box-shadow: 1px 1px 4px 0px rgb(103, 91, 91);
+  }
+}
+@media only screen and (min-device-width: 325px) and (max-device-width: 365px) and (-webkit-min-device-pixel-ratio: 2) {
+  .background {
+    height: 62vh;
+    background-image: linear-gradient(transparent, black),
+      url("./images/shutterstock_348320018@2x.png");
+    background-size: 180%;
+    background-position: center;
+    background-repeat: no-repeat;
+    align-items: center;
+    flex-direction: column;
+  }
+  .quick-search {
+    height: 18vh;
+    width: 100%;
+    box-shadow: 1px 1px 4px 0px rgb(103, 91, 91);
+  }
+}
+@media only screen and (min-device-width: 530px) and (max-device-width: 550px) and (-webkit-min-device-pixel-ratio: 2) {
+  .background {
+    height: 62vh;
+    background-image: linear-gradient(transparent, black),
+      url("./images/shutterstock_348320018@2x.png");
+    background-size: 180%;
+    background-position: center;
+    background-repeat: no-repeat;
+    align-items: center;
+    flex-direction: column;
+  }
+  .quick-search {
+    height: 16vh;
+    width: 100%;
+    box-shadow: 1px 1px 4px 0px rgb(103, 91, 91);
+  }
+}
+@media only screen and (min-device-width: 550px) and (max-device-width: 920px) and (-webkit-min-device-pixel-ratio: 2) {
+  .background {
+    height: 40vh;
+    background-image: linear-gradient(transparent, black),
+      url("./images/shutterstock_348320018@2x.png");
+    background-size: 180%;
+    background-position: center;
+    background-repeat: no-repeat;
+    align-items: center;
+    flex-direction: column;
+  }
+  .quick-search {
+    height: 12vh;
+    width: 48%;
+    box-shadow: 1px 1px 4px 0px rgb(103, 91, 91);
+  }
+}
+@media only screen and (min-device-width: 200px) and (max-device-width: 300px) and (-webkit-min-device-pixel-ratio: 2) {
+  .background {
+    height: 74vh;
+    background-image: linear-gradient(transparent, black),
+      url("./images/shutterstock_348320018@2x.png");
+    background-size: 280%;
+    background-position: center;
+    background-repeat: no-repeat;
+    align-items: center;
+    flex-direction: column;
+  }
+  .quick-search {
+    height: 18vh;
+    width: 100%;
+    box-shadow: 1px 1px 4px 0px rgb(103, 91, 91);
+  }
+}
+@media only screen and (min-device-width: 300px) and (max-device-width: 325px) and (-webkit-min-device-pixel-ratio: 2) {
+  .background {
+    height: 70vh;
+    background-image: linear-gradient(transparent, black),
+      url("./images/shutterstock_348320018@2x.png");
+    background-size: 280%;
+    background-position: center;
+    background-repeat: no-repeat;
+    align-items: center;
+    flex-direction: column;
+  }
+  .quick-search {
+    height: 18vh;
+    width: 100%;
+    box-shadow: 1px 1px 4px 0px rgb(103, 91, 91);
+  }
+} */
+
+/* ///////////////////////////// */
+
+.btn-gallery {
+  top: 85%;
+  right: 5%;
+  background-color: rgba(245, 222, 179, 0.411);
+  color: black;
+  font-weight: bold;
+}
+
+/* menu item  */
+.menu-food-item {
+  width: 90px;
+  height: 90px;
+  background-color: #192f60;
+  position: relative;
+}
+.menu-food-item .add {
+  position: absolute;
+  left: 25%;
+  bottom: -20%;
+}
+.menu-food-item img {
+  width: 100%;
+  height: 100%;
+}
+.menu-food-item .order-item-count {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  bottom: -20%;
+}
+.menu-food-item .order-item-count span {
+  background-color: white;
+  padding: 2px 5px;
+  border: 2px solid gray;
+  margin: 0 2px;
+}
+/* search page end */
+
+/* iphone SE */
+/* @media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) {
+  /* physical 960x640 
+   480x320
+*/
+
+/* .brand-name {
+    width: 100px;
+    height: 100px;
+    font-size: 3.5rem;
+  }
+  .search {
+    width: 100% !important;
+    flex-direction: column;
+    align-items: center;
+  }
+  .form-control,
+  .input-group {
+    width: 80% !important;
+  }
+
+  .main-section {
+    background-color: red;
+    height: auto;
+    padding-bottom: 2rem;
+    background-size: cover;
+  }
+  .quick-search-item {
+    width: 100%;
+    margin-bottom: 8px;
+  }
+}  */

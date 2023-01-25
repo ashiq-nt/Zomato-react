@@ -1,0 +1,46 @@
+
+                <>
+                  <div className="d-none d-lg-block">
+                    <div className="d-flex">
+                      <p className="fw-bold text-white p-0 verysmall_text text-center">
+                        Welcome {user.name}
+                      </p>
+                      <button
+                        className="btn btn-outline-light ms-3 btn-sm p-lg-2 p-0 verysmall_text"
+                        onClick={logout}
+                      >
+                        Logout
+                      </button>
+                    </div>
+                  </div>
+                  <div className="d-lg-none">
+                  <div className="d-flex">
+                      <p className=" text-white p-0 vsmall_text m-0 text-center me-1">
+                      Welcome {user.name}
+                      </p>
+                      <button
+                        className="btn btn-outline-light  m-0 btn-sm p-lg-2 p-1 verysmall_text"
+                        onClick={logout}
+                      >
+                        Logout
+                      </button>
+                   
+                  </div></div>
+                </>
+
+
+                <>
+                <div className="d-none d-lg-block">
+                <span className="fw-bold text-white">Welcome {user.name}</span>
+                <button className="btn btn-outline-light ms-3 btn-sm"
+                onClick={logout}
+             >Logout</button>
+                </div>
+            
+             <div className="d-lg-none ">
+              <p className="fw-bold text-white p-0 m-0">Welcome {user.name}</p>
+              <button className="btn btn-outline-light m-0 p-0 btn-sm"
+              onClick={logout}
+           >Logout</button></div>
+           
+                </>
